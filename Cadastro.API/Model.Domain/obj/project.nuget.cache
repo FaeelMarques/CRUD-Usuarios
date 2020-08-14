@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/4GMTiyfmsjLcNSmyzXR93is3uWCqe7Q7hKreMltGJqjBLaRfQbdn6pKYasJmKMPgWRGECy6y/4ak5pSNyf4wA==",
+  "dgSpecHash": "E+QxzxSfgEKdC95+EA+gcVQZVL5ZKo6HyzFpJlnmuA+510f3Bjo2rQSQCmJJKL4QZztBkDkNfoJFz02mE5Gd/Q==",
   "success": true,
   "projectFilePath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rafael\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.1.2\\fluentvalidation.aspnetcore.9.1.2.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
