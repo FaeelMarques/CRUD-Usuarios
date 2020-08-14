@@ -1,5 +1,8 @@
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\bin\Debug\netcoreapp3.1\Model.Domain.deps.json
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\bin\Debug\netcoreapp3.1\Model.Domain.dll
-D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.csprojAssemblyReference.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\bin\Debug\netcoreapp3.1\Model.Domain.pdb
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.AssemblyInfoInputs.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.AssemblyInfo.cs
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.csproj.CoreCompileInputs.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Domain\obj\Debug\netcoreapp3.1\Model.Domain.pdb
