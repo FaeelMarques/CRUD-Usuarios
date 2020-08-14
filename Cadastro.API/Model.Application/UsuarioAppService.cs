@@ -1,4 +1,5 @@
-﻿using Model.Application.Interface;
+﻿
+using Model.Application.Interface;
 using Model.Domain.Entities;
 using System;
 using System.Collections.Generic;

@@ -8,6 +8,6 @@ namespace Model.Domain.Interfaces.Repositories
 {
     public interface IUsuarioRepository : IRepositoryBase<Usuario>
     {
-        IQueryable<Usuario> BuscarPorNome(string nome);
+        IEnumerable<Usuario> BuscarPorNome(string nome);
     }
 }
