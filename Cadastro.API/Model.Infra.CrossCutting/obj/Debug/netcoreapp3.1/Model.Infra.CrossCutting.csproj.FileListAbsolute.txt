@@ -1,6 +1,7 @@
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Model.Infra.CrossCutting.deps.json
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Model.Infra.CrossCutting.dll
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Model.Infra.CrossCutting.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Model.Infra.CrossCutting.csprojAssemblyReference.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Model.Infra.CrossCutting.AssemblyInfoInputs.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Model.Infra.CrossCutting.AssemblyInfo.cs
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Model.Infra.CrossCutting.csproj.CoreCompileInputs.cache

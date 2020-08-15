@@ -1,0 +1,12 @@
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\bin\Debug\netcoreapp3.1\Model.Application.deps.json
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\bin\Debug\netcoreapp3.1\Model.Application.dll
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\bin\Debug\netcoreapp3.1\Model.Application.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\bin\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\bin\Debug\netcoreapp3.1\Model.Domain.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.csprojAssemblyReference.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.AssemblyInfoInputs.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.AssemblyInfo.cs
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.csproj.CoreCompileInputs.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.csproj.CopyComplete
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.dll
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Application\obj\Debug\netcoreapp3.1\Model.Application.pdb

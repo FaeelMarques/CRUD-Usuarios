@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Model.Application.Interface;
+using Model.Domain.Entities;
+using Model.Presentation.Mapping.Interface;
+using Model.Presentation.Model;
 
 namespace Model.Presentation.Controllers
 {
@@ -11,43 +16,47 @@ namespace Model.Presentation.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly IApplicationServiceCliente _applicationServiceCliente;
+        private readonly IUsuarioAppService _usuarioService;
+        private readonly IMapper _mapUsuario;
 
-
-        public ClientesController(IApplicationServiceCliente ApplicationServiceCliente)
+        public UsuarioController(IUsuarioAppService usuarioService, IMapper mapUsuario)
         {
-            _applicationServiceCliente = ApplicationServiceCliente;
+            _usuarioService = usuarioService;
+            _mapUsuario = mapUsuario;
         }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return Ok(_applicationServiceCliente.GetAll());
+            return Ok(_usuarioService.GetAll());
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return Ok(_applicationServiceCliente.GetById(id));
+            return Ok(_usuarioService.GetById(id));
         }
 
         // POST api/values
         [HttpPost]
-        public ActionResult Post([FromBody] ClienteDTO clienteDTO)
+        public ActionResult Post(UsuarioVM usuarioVM)
         {
             try
             {
-                if (clienteDTO == null)
+                if (usuarioVM == null)
                     return NotFound();
 
-                _applicationServiceCliente.Add(clienteDTO);
-                return Ok("Cliente Cadastrado com sucesso!");
+                var User = _mapUsuario.Map<UsuarioVM, Usuario>(usuarioVM);
+
+                _usuarioService.Add(User);
+                return Ok("Usuario Cadastrado com sucesso!");
             }
             catch (Exception ex)
             {
 
-                throw ex;
+                throw;
             }
 
 
@@ -55,14 +64,17 @@ namespace Model.Presentation.Controllers
 
         // PUT api/values/5
         [HttpPut]
-        public ActionResult Put([FromBody] ClienteDTO clienteDTO)
+        public ActionResult Update( UsuarioVM usuarioVM)
         {
             try
             {
-                if (clienteDTO == null)
+                if (usuarioVM == null)
                     return NotFound();
 
-                _applicationServiceCliente.Update(clienteDTO);
+                var User = _mapUsuario.Map<UsuarioVM, Usuario>(usuarioVM);
+
+                _usuarioService.Update(User);
+
                 return Ok("Cliente Atualizado com sucesso!");
             }
             catch (Exception)
@@ -74,20 +86,21 @@ namespace Model.Presentation.Controllers
 
         // DELETE api/values/5
         [HttpDelete()]
-        public ActionResult Delete([FromBody] ClienteDTO clienteDTO)
+        public ActionResult Delete(UsuarioVM usuarioVM)
         {
             try
             {
-                if (clienteDTO == null)
+                if (usuarioVM == null)
                     return NotFound();
 
-                _applicationServiceCliente.Remove(clienteDTO);
+                var User = _mapUsuario.Map<UsuarioVM, Usuario>(usuarioVM);
+                _usuarioService.Remove(User);
                 return Ok("Cliente Removido com sucesso!");
             }
             catch (Exception ex)
             {
 
-                throw ex;
+                throw;
             }
 
         }

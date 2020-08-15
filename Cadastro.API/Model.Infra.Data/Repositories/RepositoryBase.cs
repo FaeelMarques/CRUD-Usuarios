@@ -3,6 +3,7 @@ using Model.Domain.Interfaces.Repositories;
 using Model.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Model.Infra.Data.Repositories
@@ -25,7 +26,7 @@ namespace Model.Infra.Data.Repositories
 
         public IEnumerable<TEntity> GetAll()
         {
-            return db.Set<TEntity>().AsQueryable();
+            return db.Set<TEntity>().AsEnumerable();
         }
 
 

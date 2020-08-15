@@ -1,8 +1,15 @@
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Infra.Data.deps.json
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Infra.Data.runtimeconfig.json
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Infra.Data.runtimeconfig.dev.json
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Infra.Data.dll
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Infra.Data.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\bin\Debug\netcoreapp3.1\Model.Domain.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.csprojAssemblyReference.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.AssemblyInfoInputs.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.AssemblyInfo.cs
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.csproj.CopyComplete
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.dll
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Infra.Data\obj\Debug\netcoreapp3.1\Model.Infra.Data.genruntimeconfig.cache
