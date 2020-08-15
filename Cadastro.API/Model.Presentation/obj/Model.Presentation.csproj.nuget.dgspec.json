@@ -4,14 +4,73 @@
     "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj": {
+    "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\Model.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj",
-        "projectName": "Model.Presentation",
-        "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj",
+        "projectUniqueName": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\Model.Application.csproj",
+        "projectName": "Model.Application",
+        "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\Model.Application.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\obj\\",
+        "outputPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj",
+        "projectName": "Model.Domain",
+        "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +96,160 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\Model.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\Model.Infra.Data.csproj",
+        "projectName": "Model.Infra.Data",
+        "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\Model.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj",
+        "projectName": "Model.Presentation",
+        "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\Model.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\Model.Application.csproj": {
+                "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Application\\Model.Application.csproj"
+              },
+              "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Domain\\Model.Domain.csproj"
+              },
+              "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\Model.Infra.Data.csproj": {
+                "projectPath": "D:\\Usuários\\Rafael\\Documentos\\Projetos\\CRUD-Usuarios\\Cadastro.API\\Model.Infra.Data\\Model.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoFac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
