@@ -11,8 +11,9 @@ namespace Model.Infra.Data.Context
     {
         public Contexto()
         {
-        }
 
+        }
+      
         public Contexto(DbContextOptions<Contexto> options) : base(options) { }
 
         public DbSet<Usuario> Usuarios { get; set; }

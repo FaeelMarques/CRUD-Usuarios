@@ -11,7 +11,12 @@ namespace Model.Infra.Data.Repositories
     public class RepositoryBase<TEntity> : IDisposable, IRepositoryBase<TEntity> where TEntity : class
 
     {
-        protected Contexto db = new Contexto();
+        private readonly Contexto db;
+
+        public RepositoryBase(Contexto contexto)
+        {
+            db = contexto;
+        }
 
         public void Add(TEntity obj)
         {
@@ -44,7 +49,7 @@ namespace Model.Infra.Data.Repositories
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            db.Dispose();
         }
     }
 }

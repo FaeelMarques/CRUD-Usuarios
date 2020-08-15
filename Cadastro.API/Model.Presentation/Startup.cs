@@ -47,11 +47,11 @@ namespace Model.Presentation
             services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
-            var connection = Configuration["SqlConnection:SqlConnectionString"];
+            var connection = Configuration["SqlConnection:DefaultConnection"];
             services.AddDbContext<Contexto>(options => options.UseSqlServer(connection));
             services.AddMemoryCache();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            
+
             services.AddControllers();
         }
 
