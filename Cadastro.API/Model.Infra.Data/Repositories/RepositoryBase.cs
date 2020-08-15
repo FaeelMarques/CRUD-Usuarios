@@ -34,7 +34,6 @@ namespace Model.Infra.Data.Repositories
             return db.Set<TEntity>().AsEnumerable();
         }
 
-
         public void Remove(TEntity obj)
         {
             db.Entry(obj).State = EntityState.Deleted;

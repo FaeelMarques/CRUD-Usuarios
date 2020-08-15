@@ -6,7 +6,6 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Model.Application.Interface;
 using Model.Domain.Entities;
-using Model.Presentation.Mapping.Interface;
 using Model.Presentation.Model;
 
 namespace Model.Presentation.Controllers

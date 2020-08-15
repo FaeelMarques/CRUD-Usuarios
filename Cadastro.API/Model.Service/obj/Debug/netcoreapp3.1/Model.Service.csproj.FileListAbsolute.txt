@@ -6,3 +6,4 @@ D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Service
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Service\obj\Debug\netcoreapp3.1\Model.Service.csproj.CoreCompileInputs.cache
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Service\obj\Debug\netcoreapp3.1\Model.Service.dll
 D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Service\obj\Debug\netcoreapp3.1\Model.Service.pdb
+D:\Usuários\Rafael\Documentos\Projetos\CRUD-Usuarios\Cadastro.API\Model.Service\obj\Debug\netcoreapp3.1\Model.Service.csprojAssemblyReference.cache
