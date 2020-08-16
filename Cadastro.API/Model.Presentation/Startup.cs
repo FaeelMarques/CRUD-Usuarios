@@ -52,6 +52,8 @@ namespace Model.Presentation
             services.AddMemoryCache();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
+            services.AddCors();
+
             services.AddControllers();
         }
 
@@ -66,6 +68,8 @@ namespace Model.Presentation
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {

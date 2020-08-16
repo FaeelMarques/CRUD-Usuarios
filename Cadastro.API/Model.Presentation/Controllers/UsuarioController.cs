@@ -63,7 +63,7 @@ namespace Model.Presentation.Controllers
 
         // PUT api/values/5
         [HttpPut]
-        public ActionResult Update( UsuarioVM usuarioVM)
+        public ActionResult Update(UsuarioVM usuarioVM)
         {
             try
             {
@@ -84,16 +84,16 @@ namespace Model.Presentation.Controllers
         }
 
         // DELETE api/values/5
-        [HttpDelete()]
-        public ActionResult Delete(UsuarioVM usuarioVM)
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
         {
             try
             {
-                if (usuarioVM == null)
+                var usuario = _usuarioService.GetById(id);
+                if (usuario == null)
                     return NotFound();
 
-                var User = _mapUsuario.Map<UsuarioVM, Usuario>(usuarioVM);
-                _usuarioService.Remove(User);
+                _usuarioService.Remove(usuario);
                 return Ok("Cliente Removido com sucesso!");
             }
             catch (Exception ex)
