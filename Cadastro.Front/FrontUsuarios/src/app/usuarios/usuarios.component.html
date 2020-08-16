@@ -1,0 +1,42 @@
+<h3>Cadastrar Novos Usuários</h3>
+<hr>
+<form>
+    <div class="campo">
+        <label> Nome:</label>
+         <input type="text" name="nome" [(ngModel)]="usuario.nome">
+    </div>
+    <div class="campo">
+        <label> Idade:</label>
+        <input type="number" name="idade" [(ngModel)]="usuario.idade">
+    </div>
+    <div class="campo">
+        <label> E-Mail:</label>
+         <input type="text" name="email" [(ngModel)]="usuario.email">
+    </div>
+    <div class="campo">
+        <label> Telefone:</label>
+         <input type="text" name="telefone" [(ngModel)]="usuario.telefone">
+    </div>
+   <a class="btn-cadastrar" href="#" (click)="cadastrarUsuario()">Cadastrar</a>
+</form>
+<hr>
+<h3>Usuários Cadastrados:</h3>
+<table> 
+    <tr>
+        <th class="id-column">Id</th>
+        <th class="nome-column">Nome</th>
+        <th>Idade</th>
+        <th>E-mail</th>
+        <th>Telefone</th>
+        <th >Ações</th>
+    </tr>
+    <tr *ngFor="let usuario of listaUsuarios | async "> 
+        <td class="id">{{usuario.id}}</td>
+        <td class="nome">{{usuario.nome}}</td>
+        <td class="idade">{{usuario.idade}}</td>
+        <td class="email">{{usuario.email}}</td>
+        <td  class="telefone">{{usuario.telefone}}</td>
+        <td  class="acoes"><a href="#" class="btn-editar" (click)="editarUsuario(usuario.id)">Atualizar</a>
+        <a href="#" class="btn-excluir" (click)="removerUsuario(usuario.id)">Excluir</a></td>
+    </tr>
+</table>
