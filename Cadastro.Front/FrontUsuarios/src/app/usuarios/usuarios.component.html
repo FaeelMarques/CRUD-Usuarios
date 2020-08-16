@@ -1,6 +1,6 @@
-<h2>Alunos Cadastrados: </h2>
+<h2>Usuario Cadastrados: </h2>
 
-<table *ngFor = "let usuario of usuarios"> 
+<table> 
     <tr>
         <th>Id</th>
         <th>Nome</th>
@@ -8,15 +8,11 @@
         <th>E-mail</th>
         <th>Telefone</th>
     </tr>
-    
-    
-    <tr>
-<td>1</td>
-<td>Rafael</td>
-<td>24</td>
-<td>faeel.marques@gmail.com</td>
-<td>24998286649</td>
-
+    <tr *ngFor="let usuario of usuarios "> 
+        <td>{{usuario.id}}</td>
+        <td>{{usuario.nome}}</td>
+        <td>{{usuario.idade}}</td>
+        <td>{{usuario.email}}</td>
+        <td>{{usuario.telefone}}</td>
     </tr>
-    
 </table>

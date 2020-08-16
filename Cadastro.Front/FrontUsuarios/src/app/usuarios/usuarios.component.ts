@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Observable } from 'rxjs';  
 import { UsuariosService } from '../usuarios.service'
+import { Usuario } from '../usuario';
 
 @Component({
   selector: 'app-usuarios',
@@ -9,7 +10,7 @@ import { UsuariosService } from '../usuarios.service'
 })
 export class UsuariosComponent implements OnInit {
 
-usuarios: Array<any> = new Array();
+ usuarios: Usuario[] ;
 
   constructor(private usuarioService: UsuariosService) { }
 
@@ -19,8 +20,10 @@ usuarios: Array<any> = new Array();
   }
 
   listarUsuarios(){
+    // this.usuarios = this.usuarioService.listarUsuarios();  
     this.usuarioService.listarUsuarios().subscribe(usuarios =>{
-      this.usuarios = usuarios
+      this.usuarios = usuarios,
+      console.log(usuarios);
     }, error => {
       console.log('Erro ao listar usuários!', error);
     })
