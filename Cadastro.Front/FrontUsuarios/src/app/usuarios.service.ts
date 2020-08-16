@@ -18,18 +18,18 @@ export class UsuariosService {
   }
   
   cadastrarUsuario(usuario: Usuario): Observable<Usuario>{
-    return this.http.post<Usuario>("http://localhost:55088/usuario/", usuario, httpOptions);
+    return this.http.post<Usuario>("http://localhost:55088/usuario/", usuario);
   }
   
   atualizarUsuario(usuario: Usuario): Observable<Usuario>{
-    return this.http.put<Usuario>("http://localhost:55088/usuario/", usuario , httpOptions);
+    return this.http.put<Usuario>("http://localhost:55088/usuario/", usuario);
   }
   
-  removerUsuario(id: any) :Observable<number>{
-    return this.http.delete<number>("http://localhost:55088/usuario/".concat(id), httpOptions);
+  removerUsuario(id: any): Observable<number>{
+    return this.http.delete<number>("http://localhost:55088/usuario/".concat(id));
   }
 
   BuscaUsuarioById(id: any) :Observable<Usuario>{
-    return this.http.get<Usuario>("http://localhost:55088/usuario/".concat(id), httpOptions);
+    return this.http.get<Usuario>("http://localhost:55088/usuario/".concat(id));
   }
 }

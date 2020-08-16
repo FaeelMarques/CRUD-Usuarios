@@ -26,16 +26,16 @@ namespace Model.Presentation.Controllers
 
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Usuario>> Get()
         {
-            return Ok(_usuarioService.GetAll());
+            return _usuarioService.GetAll().ToList();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<Usuario> Get(int id)
         {
-            return Ok(_usuarioService.GetById(id));
+            return _usuarioService.GetById(id);
         }
 
         // POST api/values
@@ -50,7 +50,7 @@ namespace Model.Presentation.Controllers
                 var User = _mapUsuario.Map<UsuarioVM, Usuario>(usuarioVM);
 
                 _usuarioService.Add(User);
-                return Ok("Usuario Cadastrado com sucesso!");
+                return RedirectToAction("Get");
             }
             catch (Exception ex)
             {
@@ -74,7 +74,7 @@ namespace Model.Presentation.Controllers
 
                 _usuarioService.Update(User);
 
-                return Ok("Cliente Atualizado com sucesso!");
+                return NoContent();
             }
             catch (Exception)
             {
@@ -85,7 +85,7 @@ namespace Model.Presentation.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public ActionResult<Usuario> Delete(int id)
         {
             try
             {
@@ -94,7 +94,8 @@ namespace Model.Presentation.Controllers
                     return NotFound();
 
                 _usuarioService.Remove(usuario);
-                return Ok("Cliente Removido com sucesso!");
+
+                return usuario;
             }
             catch (Exception ex)
             {
